@@ -1,0 +1,173 @@
+body {
+    background-color: rgb(9, 9, 59);
+}
+
+h1 {
+    color: rgba(171, 219, 241, 0.738);
+    font-weight: bold;
+    font-size: 45px;
+    
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: 300px;
+    top: 300px;
+
+}
+
+span {
+    color: lightcoral;
+}
+
+.git {
+    width: 150px;
+    position: relative;
+    top: 30px;
+    padding: 20px;
+    background-color: orangered;
+    border-radius: 10px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    color: blueviolet;
+
+}
+
+.Side {
+    display: flex;
+}
+
+
+.contact {
+    border: solid 2px blue;
+    position: relative;
+    top: 1000px;
+    right: 150px;
+    border-radius: 10px;
+    background-color: rgb(38, 38, 108);
+    box-sizing: border-box;
+    height: 370px;
+}
+
+.input-field {
+width: 350px;
+padding: 5px;
+margin: 5px;
+border: solid blue;
+border-radius: 20px;
+background-color: transparent;
+font-size: 20px;
+
+}
+
+.contact textarea {
+    border: 1px solid;
+    padding: 30px;
+    background-color: rgb(141, 171, 198);
+    border-radius: 10px;
+
+}
+
+.submit {
+    background-color: lightcoral;
+    width: 80px;
+    font-size: 13px;
+    color: red;
+    position: relative;
+    left: 150px;
+}
+
+.images img {
+    height: 50px;
+    position: relative;
+    left: 350px;
+    top: 400px;
+  }
+
+  @media only screen and (min-width: 1400px) {
+    h1 {
+        font-size: 60px;
+    }
+
+    button {
+        position: relative;
+        width: 150px;
+        padding: 23px;
+
+    }
+
+    span {
+        font-size: 20px;
+    }
+
+    .contact {
+        height: 470px;
+        position: relative;
+        top: 700px;
+    }
+
+    .input-field {
+        margin: 15px;
+        padding: 10px;
+    }
+
+    textarea {
+        padding: 10px;
+    }
+
+  .images img {
+    height: 70px;
+  };
+
+  .submit {
+    width: 100px;
+  }
+
+  }
+
+
+
+  @media only screen and (max-width: 800px) {
+    h1 {
+        font-size: 25px;
+        position: relative;
+        bottom: 200px;
+    }
+
+    span {
+        font-size: 13px;
+        position: relative ;
+        bottom: 150px;
+
+    }
+
+    .git{
+        width: 100px;
+        position: relative;
+        bottom: 130px;
+    }
+
+    .images img {
+        height: 25px;
+    }
+
+    .contact {
+        height: 240px;
+        position: relative;
+        left: 200px;
+    }
+
+    .input-field {
+        height: 10px;
+    }
+
+    textarea {
+        padding: 5px;
+    }
+  }
+  
+  
+
